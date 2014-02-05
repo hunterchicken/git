@@ -10,7 +10,7 @@ struct in_addr *src_addr[MIF];
 struct in6_addr *src_addr6[MIF];
 struct db_table * table;
 
-
+struct db_table *tbl;
 
 	void 
 ms_free_node(void * node)
